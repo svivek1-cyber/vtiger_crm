@@ -51,13 +51,6 @@ public class HomePage {
     public WebElement getSaveButton(){
         return saveButton;
     }
-    
-    @FindBy(xpath="//b[contains(text(), 'G14 Notebook')]")
-    private WebElement notebookTitle;
-    
-    public WebElement getNotebookTitle(){
-        return notebookTitle;
-    }
 
     @FindBy(linkText = "Opportunities")
     private WebElement opportunity;

@@ -3,6 +3,8 @@ package vtiger_crm;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -20,8 +22,10 @@ public class CreateNotebookAtHomeTest extends BaseClass {
         hp.getNotebookLink().click();
         hp.getWindowTitleTextField().sendKeys(bookName);
         hp.getSaveButton().click();
+        
+        WebElement getNotebookTitle = driver.findElement(By.xpath("//b[contains(text(), '"+bookName+"')]"));
 
-        boolean isDisplayed = hp.getNotebookTitle().isDisplayed();
+        boolean isDisplayed = getNotebookTitle.isDisplayed();
         if (isDisplayed) {
             Reporter.log("Notebook created successfully");
         } else {
