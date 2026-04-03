@@ -88,6 +88,7 @@ public class CreateLeadTest extends BaseClass {
         cLead.getSaveButton().click();
 
         VerifyLead vLead = new VerifyLead(driver);
+        mwdu.waitUntilClickable(vLead.getLastName());
         String lname = vLead.getLastName().getText();
 
         System.out.println("Lead created with name: " + lname);
