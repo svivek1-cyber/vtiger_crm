@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-03T12:53:09 IST" name="Default suite" finished-at="2026-04-03T12:53:44 IST" duration-ms="34703">
+    <groups>
+      <group name="smoke">
+        <method signature="CreateQuoteTest.createQuote()[pri:0, instance:vtiger_crm.CreateQuoteTest@f5958c9]" name="createQuote" class="vtiger_crm.CreateQuoteTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-04-03T12:53:09 IST" name="Default test" finished-at="2026-04-03T12:53:44 IST" duration-ms="34703">
+      <class name="vtiger_crm.CreateQuoteTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:vtiger_crm.CreateQuoteTest@f5958c9]" started-at="2026-04-03T12:53:09 IST" name="configBeforeClass" finished-at="2026-04-03T12:53:12 IST" duration-ms="2913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="login()[pri:0, instance:vtiger_crm.CreateQuoteTest@f5958c9]" started-at="2026-04-03T12:53:12 IST" name="login" finished-at="2026-04-03T12:53:14 IST" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createQuote()[pri:0, instance:vtiger_crm.CreateQuoteTest@f5958c9]" started-at="2026-04-03T12:53:14 IST" name="createQuote" finished-at="2026-04-03T12:53:41 IST" duration-ms="27828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createQuote -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:vtiger_crm.CreateQuoteTest@f5958c9]" started-at="2026-04-03T12:53:41 IST" name="logout" finished-at="2026-04-03T12:53:44 IST" duration-ms="2196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:vtiger_crm.CreateQuoteTest@f5958c9]" started-at="2026-04-03T12:53:44 IST" name="closeBrowser" finished-at="2026-04-03T12:53:44 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- vtiger_crm.CreateQuoteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
